@@ -68,6 +68,7 @@ db.customers.insertMany([
 
 ```js
 db.your_collection.find();
+db.your_collection.find({ _id: 1 });
 ```
 
 ## update One and Many
